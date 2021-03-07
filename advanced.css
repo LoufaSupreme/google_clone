@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+
+body {
+  font-size: 13px;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+nav {
+    position: relative;
+    grid-template-columns: 50% 50%;
+    background-color: #f1f1f1;
+}
+
+nav a {
+    font-size: 13px;
+    display: inline-block;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(0,0,0, 0.87)
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    margin-top: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.app-bar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.app-border {
+    border-bottom: 1px solid #ebebeb;
+}
+
+#logo {
+    height: auto; 
+    width: auto; 
+    max-width: 92px; 
+    max-height: 33px;
+    margin-bottom: 10px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+.label-title {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 2px;
+}
+
+.descrip-title {
+    color: #777;
+    font-weight: bold;
+    margin-top: 30px; 
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 14% 54% 32%;
+    align-items: center;
+}
+
+.label {
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.box > input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.descrip {
+    font-size: 11px;
+    margin-left: 12px;
+    min-wdith: 160px;
+}
+
+.button {
+    background-color: #4d90fe;
+    color: white;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 11px;
+    display: inline-block;
+    margin: 11px 4px;
+    padding: 6px 16px;
+    user-select: none;
+    text-align: center;
+    font-family: arial, sans-serif;
+    outline: 0;
+    width: 120px;
+    justify-self: right;
+}
+
+.button:hover {
+    background-color: #347ef7;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="advanced.css" rel="stylesheet" />
+    <!--https://www.bootstrapcdn.com/fontawesome/-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Search</title>
+  </head>
+  <body>
+    <nav>
+        <img id="logo" alt="Google" src="./googlelogo_color_272x92dp.png" />
+        <a href="index.html">Search</a>
+    </nav>
+    <div class="app-bar">Advanced Search</div>
+    <div class="app-border"></div>
+    <form action="https://google.com/search">
+        <div class="s-box">
+            <div class="box">
+                <div class="label-title">Find pages with...</div>
+                <div></div>
+                <div class="descrip-title">To do this in the search box.</div>
+            </div>
+            <div class="box">
+                <div class="label">all these words:</div>
+                <input
+                    class="search-input"
+                    autocomplete="off"
+                    autofocus
+                    type="text"
+                    name="q"
+                />
+                <div class="descrip">Type the important words: tri-colour rat terrier</div>
+            </div>
+            <div class="box">
+                <div class="label">this exact word or phrase:</div>
+                <input
+                    class="search-input"
+                    autocomplete="off"
+                    type="text"
+                    name="as_epq"
+                />
+                <div class="descrip">Put exact words in quotes: "rat terrier"</div>
+            </div>
+            <div class="box">
+                <div class="label">any of these words:</div>
+                <input
+                    class="search-input"
+                    autocomplete="off"
+                    type="text"
+                    name="as_oq"
+                />
+                <div class="descrip">Type OR between all the words you want: miniature OR standard</div>
+            </div>
+            <div class="box">
+                <div class="label">none of these words:</div>
+                <input
+                    class="search-input"
+                    autocomplete="off"
+                    type="text"
+                    name="as_eq"
+                />
+                <div class="descrip">Put a minus sign just before words that you don't want: <br>-rodent, -"Jack Russell"</div>
+            </div>
+        </div>
+        <div class="box">
+            <div></div>
+            <input class="button" type="submit" value="Advanced Search" />
+            <div></div>
+        </div>
+    </form>
+  </body>
+</html>
